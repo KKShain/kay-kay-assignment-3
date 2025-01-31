@@ -4,11 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <title>Browse4pets</title>
+    <style>
+       .adlam {
+        font-family: "ADLaM Display", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+        .sora {
+        font-family: "Sora", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+}
+
+    </style>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+  <body class="mx-auto">
+      <!-- header section -->
+      <header>
+        <!-- nav bar section -->
+         <nav class="flex flex-row justify-around items-center bg-[#FFF9F4] sora">
+            <div class="flex items-center gap-2">
+                <img src="c1-assets/logo-header.png" alt="">
+                <h3>Browse <span class="text-yellow-500">4</span>pets</h3>
+            </div>
+            <div class="w-xs">
+                <ul class="flex items-center justify-between">
+                    <li>Find a pet</li>
+                    <li>Breeds</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-3">
+                <button class="border rounded-md px-3 border-yellow-400">Login</button>
+                <button class="rounded-md px-3 bg-yellow-400">Register</button>
+            </div>
+         </nav>
+     </header>
+
+  
   </body>
 </html>
