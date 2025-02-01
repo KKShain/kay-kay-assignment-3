@@ -31,14 +31,14 @@
 
 <body class="mx-auto sora">
     <!-- header section -->
-    <header class="px-3 lg:px-16">
+    <header class="px-3 lg:px-16 bg-[#FFF9F4]">
         <!-- nav bar section -->
-        <div class="navbar bg-base-100 sora">
+        <div class="navbar sora">
             <div class="navbar-start">
 
                 <div class="flex items-center gap-2">
                     <img src="c1-assets/logo-header.png" alt="">
-                    <p class="hidden lg:flex">Browse<span class="text-yellow-500">4</span>pets</p>
+                    <p class="hidden lg:flex">Browse<span class="text-yellow-400 font-bold">4</span>pets</p>
                 </div>
             </div>
             <div class="navbar-center hidden lg:flex">
@@ -81,16 +81,16 @@
 
     <main>
         <!-- banner part -->
-        <section class="flex flex-col  px-5 lg:px-20 ">
-            <div>
-                <h1 class="adlam text-5xl">Pamper Your Pet,<br> Because They Deserve <br>the Best</h1>
-                <p>Discover a world of treats, toys, and essentials handpicked for <br>your furry friends. Shop now and
+        <section class="flex flex-col  px-5 lg:px-20 relative">
+            <div class="absolute mt-8">
+                <h1 class="adlam text-2xl lg:text-5xl mb-4">Pamper Your Pet,<br> Because They Deserve <br>the Best</h1>
+                <p class="mb-6 font-light lg:w-2/3">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and
                     make
                     tails wag with joy!</p>
-                <button class="bg-yellow-300 rounded-md px-3">Find a pet</button>
+                <button class="bg-yellow-300 rounded-md px-5 py-2">Find a pet</button>
             </div>
             <div>
-                <img src="c1-assets/cat-big.png" alt="">
+                <img class="mt-44 lg:mt-0" src="c1-assets/cat-big.png" alt="">
             </div>
         </section>
 
@@ -149,18 +149,18 @@
         <!-- trending pets -->
         <section class="mb-20  px-5 lg:px-20 py-20 bg-[#FFF9F4]">
             <h2 class="adlam text-4xl mb-8">Trending Pet Products</h2>
-            <div class="grid grid-cols-9 gap-4">
-                <div class="bg-[#F9DF8A] col-span-3 p-8">
+            <div class="grid grid-cols-1 lg:grid-cols-9 gap-4">
+                <div class="bg-[#F9DF8A] lg:col-span-3 py-8 pl-8 rounded-md">
                     <div class="space-y-3">
                         <h3 class="text-3xl adlam">T-Shirt For Dogs</h3>
                         <p class="font-light">Discover a world of treats, toys, and essentials handpicked for</p>
                         <button class="px-4 py-1 bg-white rounded-md">Shop Now</button>
                     </div>
                     <div>
-                        <img class="pl-28 -mt-24" src="/c1-assets/cute-pet-small.png" alt="">
+                        <img class="pl-24 -mt-28" src="/c1-assets/cute-pet-small.png" alt="">
                     </div>
                 </div>
-                <div class="col-span-6 grid grid-cols-3 gap-4">
+                <div class="lg:col-span-6 grid grid-cols-2 lg:grid-cols-3 gap-4">
                     <div class=" bg-white border rounded-md p-3 flex items-center gap-5">
                         <div class="bg-[#FFF9F4] rounded-md p-3"><img src="/c1-assets/dog-cartoon.png" alt=""></div>
                         <div>
@@ -225,7 +225,7 @@
                             <p>$39.99</p>
                         </div>
                     </div>
-                    <div class=" bg-white border rounded-md p-3 flex items-center gap-5">
+                    <div class=" bg-white border rounded-md p-3 hidden lg:flex items-center gap-5">
                         <div><img class="bg-[#FFF9F4] rounded-md p-3" src="/c1-assets/rabbit-cartoon.png" alt=""></div>
                         <div>
                             <p>4.5</p>
